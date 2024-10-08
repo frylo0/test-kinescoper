@@ -1,10 +1,11 @@
-import { Button } from "./components/Button/Button.styles";
+import { NestedList } from "./components/NestedList";
 
 function App() {
 	return (
 		<div className="App">
-			<Button accent='blue' title="Black">Hello World!</Button>
-			<Button title="Default (Green)">Hello World!</Button>
+			<h1>Nested List</h1>
+
+			<NestedList />
 		</div>
 	);
 }
